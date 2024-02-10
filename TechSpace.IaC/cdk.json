@@ -1,5 +1,5 @@
 {
-  "app": "dotnet run --project src/TechSpace/TechSpace.csproj",
+  "app": "dotnet run TechSpace.csproj",
   "watch": {
     "include": [
       "**"
@@ -7,11 +7,10 @@
     "exclude": [
       "README.md",
       "cdk*.json",
-      "src/*/obj",
-      "src/*/bin",
-      "src/*.sln",
-      "src/*/GlobalSuppressions.cs",
-      "src/*/*.csproj"
+      "/obj",
+      "/bin",
+      "GlobalSuppressions.cs",
+      "*.csproj"
     ]
   },
   "context": {
