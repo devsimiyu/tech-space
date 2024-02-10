@@ -15,7 +15,7 @@ namespace TechSpace
                 IpAddresses = IpAddresses.Cidr("10.0.0.0/16"),
                 EnableDnsHostnames = true,
                 EnableDnsSupport = true,
-                DefaultInstanceTenancy = DefaultInstanceTenancy.DEFAULT
+                DefaultInstanceTenancy = DefaultInstanceTenancy.DEFAULT,
             });
         }
     }
